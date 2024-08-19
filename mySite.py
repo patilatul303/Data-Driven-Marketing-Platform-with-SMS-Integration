@@ -8,8 +8,8 @@ from twilio.rest import Client
 import sqlite3
 from datetime import datetime
 
-account_sid = 'AC3788e0b2c919b50c6d91419fdcdaaba5'
-auth_token = '258a39735015db4c8ae0b7403aedf113'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 login_status = 0
@@ -117,7 +117,7 @@ def bulk():
 			message = client.messages \
 			.create(
 					body=company+":\n"+mgs,
-					from_='+14238977478',
+					from_='+',
 					to='+91' + str(num[0])
 				)
 			#print(message.sid)

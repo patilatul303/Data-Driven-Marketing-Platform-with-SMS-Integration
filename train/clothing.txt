@@ -1,0 +1,11 @@
+shirt
+pant
+t-shirt
+cap
+tie
+Jacket
+Sweater
+suit
+socks
+shoes 
+undergarments

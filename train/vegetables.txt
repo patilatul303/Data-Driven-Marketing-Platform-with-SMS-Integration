@@ -1,0 +1,11 @@
+bean
+green pea
+Spinach
+coriander
+carrot
+broccoli
+cauliflower
+corn
+cucumber
+eggplant
+green pepper

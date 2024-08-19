@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Consumer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="home" class="w3-bar-item w3-button">Home</a>
+  <a href="login" class="w3-bar-item w3-button">Login</a>
+  <a href="/" class="w3-bar-item w3-button">Register</a>
+  <a href="input" class="w3-bar-item w3-button">Purchase</a>
+  <a href="bulk" class="w3-bar-item w3-button">Bulk SMS</a>
+</div>
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>Data Driven smart consumer marketing System</h1>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-teal">
+  <div class="w3-container w3-cell w3-mobile" style="width:85%">
+    <h5>Developed By</h5>
+    <div class="w3-container w3-cell">
+      <p>Atul Patil</p>
+      <p>Shubham Patil</p>
+    </div>
+    <div class="w3-container w3-cell">
+      <p>Ashish Shewale</p>
+      <p>harsh Suratwala</p>
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h5>Guided By</h5>
+    <p>Pro. Sarika Aundhkar</p>
+  </div>
+  </div>
+
+</div>
+
+      
+</body>
+</html>

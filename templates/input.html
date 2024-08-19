@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="w3-card-4 w3-margin">
+
+    <header class="w3-container w3-blue">
+      <h1>Fill Customer Purchase Information</h1>
+    </header>
+    
+    <form class="w3-container" action="" method="post" enctype="multipart/form-data">
+      <br>
+        <label class="w3-text-teal"><b>Customer Name</b></label>
+        <input class="w3-input w3-border w3-light-grey" type="text" name='name' value="{{ name }}">
+
+        <br> 
+        <label class="w3-text-teal"><b>Customer Contact</b></label>
+        <input class="w3-input w3-border w3-light-grey" type="text" name='contact' value="{{ contact }}">
+        <br>
+  
+        <label class="w3-text-teal"><b>Items Purchased</b></label>
+        <textarea class="w3-input w3-border w3-light-grey" rows="10" cols="47" name="items" placeholder="Enter Items here..">{% if items %} {{items}} {% endif %}</textarea>
+        <br>
+        <input class="w3-btn w3-blue-grey" name="prediction" type="submit" value="Add">  
+      </form>
+    <br>
+    <footer class="w3-container w3-blue">
+      <h5></h5>
+    </footer>
+    
+    
+
+  {% endblock %}

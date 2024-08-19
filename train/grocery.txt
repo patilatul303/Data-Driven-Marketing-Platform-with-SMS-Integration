@@ -1,0 +1,12 @@
+rice
+wheat
+sugar
+jowar
+salt
+Bread
+cheese
+tomato
+onion
+olives
+oil
+
